@@ -1,4 +1,4 @@
 
 import pandas as pd
-df = pd.read_excel("cinecnc_1.xlsx")
-print(df)
+df = pd.read_csv("odt.csv", sep=";", encoding='latin1')
+print("\n\n", df.describe(), "\n\n", df.info(), "\n\n", df)
